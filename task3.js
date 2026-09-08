@@ -42,11 +42,11 @@ for(let employee of employees){
     sum += employee.salary;
 }
 
-const avgSlary = sum/employees.length;
+const avgSalary = sum/employees.length;
 
-console.log(avgSlary);
+console.log(avgSalary);
 
 //sort employess by salary
-sortSlary = employees.sort(emp => emp.salary)
+sortSalary = employees.sort(emp => emp.salary)
 
-console.log(sortSlary);
+console.log(sortSalary);
